@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dudu & Baby Panda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #000;
+      color: #f9c4d2;
+      overflow-x: hidden;
+    }
+    .intro {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?fit=crop&w=1950&q=80') no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      padding: 0 2rem;
+    }
+    .intro h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.8rem;
+      color: #ffc0cb;
+      text-shadow: 0 0 10px #fff;
+      animation: fadeIn 3s ease-in;
+    }
+    .intro p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-top: 1rem;
+      color: #fff5f5;
+      animation: fadeIn 5s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .audio-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+  <div class="audio-container">
+    <audio autoplay loop controls>
+      <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <div class="intro">
+    <h1>Helloww babeyy...</h1>
+    <p>Welcome to this little mystical world of memories… which will take us through our beautiful journey every time we visit the website.</p>
+  </div>
+</body>
+</html>
