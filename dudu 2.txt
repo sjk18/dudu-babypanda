@@ -62,5 +62,6 @@
     <h1>Helloww babeyy...</h1>
     <p>Welcome to this little mystical world of memories… which will take us through our beautiful journey every time we visit the website.</p>
   </div>
-</body>
+</<a href="moments.html" style="color:#ffc0cb; font-size:1.2rem; margin-top:2rem; display:inline-block;">💫 See Our Moments</a>
+>
 </html>
